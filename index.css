@@ -67,3 +67,14 @@ ul li a{
 .title2{
  font-size: 40px;
 }
+
+img{
+    image-resolution: hign;
+    image-rendering: crisp-edges;
+    align-content: right;
+    size: 50px;
+    shape-outside: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
