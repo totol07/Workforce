@@ -1,17 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: Arial black;
     margin: 0;
     padding: 0;
 }
-.logo{
+.heading{
     text-shadow: rgb(2, 73, 241);
     font-weight: 700px;
     font-size: 60px;
     padding: 30px;
     font-family: georgia;
     text-align: left;
-    margin-bottom: 3%;
+    text-align: center;
 }
+
+/* Navbar section  */
 .nav{
     display: flex;
     color: black;
@@ -44,20 +50,23 @@ ul li a{
 
 .nav ul li a:hover{
     background-color: #7acedb;
+    border-radius: 10%;
 }
 .nav ul li a::before{
     background-color: #e8eaec;
 }
 
-.menu{
+/* new setion for main title */
+.title{
+    margin-top: 5%;
+    padding-left: 3%;
+    font-size: 40px;
+    font-family: verdana;
     display: flex;
 }
 
-.title{
-    margin-top: 9%;
-    padding-left: 10%;
-    font-size: 40px;
-    font-family: verdana;
+.leftTitle{
+    width: 50%;
 }
 
 .title1{
@@ -68,7 +77,26 @@ ul li a{
  font-size: 40px;
 }
 
-img{
+#mail{
+    width: 50%;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+    position: relative;
+    top: 40px;
+    font-family: georgia;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+#mailBtn{
+    width: 6%;
+    position: relative;
+    right: 65px;
+    top: 56px;
+    border-radius: 50%;
+}
+
+.img img{
     image-resolution: hign;
     image-rendering: crisp-edges;
     align-content: right;
