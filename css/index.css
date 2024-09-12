@@ -1,108 +1,51 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-body{
-    font-family: Arial black;
-    margin: 0;
-    padding: 0;
-}
-.heading{
-    text-shadow: rgb(2, 73, 241);
-    font-weight: 700px;
-    font-size: 60px;
-    padding: 30px;
-    font-family: georgia;
-    text-align: left;
-    text-align: center;
+    font-family: Sans-serif;
 }
 
-/* Navbar section  */
-.nav{
+.header{
     display: flex;
-    color: black;
     justify-content: space-between;
-    align-items:center;
-    background-color: #ffffff;
-    padding: 10px 20px;
-    font-weight: 600px;
+    padding-top: 7px;
 }
 
-.nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header1 div{
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.header1 p{
+    font-size: large;
+    padding-left: 25px;
+    font-weight: bolder;
+    color: rgb(86, 86, 187);
+}
+
+.header2 p{
+    margin-top: 45px;
+    font-size: larger;
+}
+
+.header3 button{
+    margin: 25px 25px 0px 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(86, 86, 187);
+    font-weight: bolder;
+    border-color: rgb(86, 86, 187);
+    border-width: 3px;
+}
+
+.header3 button:hover{
+    color: white;
+    background-color: rgb(86, 86, 187);
+}
+
+.navbar{
     display: flex;
-}
- 
-.nav ul li{
-    margin: 0 15px;
-}
-
-ul li a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 8px 16px;
-    display: block;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.nav ul li a:hover{
-    background-color: #7acedb;
-    border-radius: 10%;
-}
-.nav ul li a::before{
-    background-color: #e8eaec;
-}
-
-/* new setion for main title */
-.title{
-    margin-top: 5%;
-    padding-left: 3%;
-    font-size: 40px;
-    font-family: verdana;
-    display: flex;
-}
-
-.leftTitle{
-    width: 50%;
-}
-
-.title1{
-    color: #6c00f8;
-}
-
-.title2{
- font-size: 40px;
-}
-
-#mail{
-    width: 50%;
-    height: 50px;
-    border-radius: 25px 25px 25px 25px;
-    position: relative;
-    top: 40px;
-    font-family: georgia;
-    font-size: 20px;
-    padding-left: 40px;
-}
-
-#mailBtn{
-    width: 6%;
-    position: relative;
-    right: 65px;
-    top: 56px;
-    border-radius: 50%;
-}
-
-.img img{
-    image-resolution: hign;
-    image-rendering: crisp-edges;
-    align-content: right;
-    size: 50px;
-    shape-outside: none;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    justify-content: space-between;
+    margin-top: 40px;
 }
